@@ -1,0 +1,56 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    margin-top: auto;
+    grid: col-2;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: left;
+}
+
+.delete {
+    background-color: rgb(255, 191, 191);
+    margin-left: 5px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+
+.update {
+    width: 90px;
+}
+
+p {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
